@@ -5,37 +5,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    index:'./index.js',
-    test: './src/js/test.js',
-    page:'./src/js/page.js'
+    'web-hunter':'./src/web-hunter.js',
     },
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
   plugins: [
-          new HtmlWebpackPlugin({
-            // filename: 'test.html',
-            template: './src/views/test.html',
-            inject: true,
-            // minify: {
-            //   // 压缩html
-            //   collapseWhitespace: true, // 压缩空白
-            //   removeComments: true // 去除注释
-            // },
-            chunks: ['index','test']
-          }),
-            new HtmlWebpackPlugin({
-              filename: 'page.html',
-              template: './src/views/page.html',
-              inject: true,
-              // minify: {
-              //   // 压缩html
-              //   collapseWhitespace: true, // 压缩空白
-              //   removeComments: true // 去除注释
-              // },
-              chunks: ['index','page']
-            }),
             
             
     ],
