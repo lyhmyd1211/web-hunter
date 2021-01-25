@@ -6,18 +6,6 @@
 
 ## 安装
 
-```
-npm i npm i web-hunter 
-```
-
-or
-
-```
-yarn  add npm i web-hunter
-```
-
-## 安装
-
 ### Browser
 下载dist/web-hunter.min.js
 
@@ -28,7 +16,15 @@ yarn  add npm i web-hunter
 ```
 这将创建全局变量Hunter
 ### NPM
+```
+npm i npm i web-hunter 
+```
 
+or
+
+```
+yarn  add npm i web-hunter
+```
 #### CommonJS
 
 ```
