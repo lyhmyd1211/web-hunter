@@ -5,10 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    'web-hunter':'./src/web-hunter.js',
+    'web-hunter':'./index.js',
     },
     output: {
-        filename: '[name].bundle.js',
+        filename: 'web-hunter.min.js',
         path: path.resolve(__dirname, 'dist')
     },
   plugins: [
