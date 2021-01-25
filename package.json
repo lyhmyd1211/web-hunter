@@ -1,7 +1,7 @@
 {
   "name": "web-hunter",
   "version": "0.0.1",
-  "description": "",
+  "description": "A tracking tools(Operation data fetch) on front end web page",
   "main": "/dist/index.bunlde.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --mode development --config webpack.config.js",
@@ -9,7 +9,23 @@
     "build": "webpack",
     "start": "webpack serve"
   },
-  "author": "",
+  "keywords": [
+    "vue",
+    "react",
+    "angular",
+    "track",
+    "data fetch",
+    "burying point",
+    "bury"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyhmyd1211/web-hunter"
+  },
+  "bugs": {
+    "url": "https://github.com/lyhmyd1211/web-hunter/issues"
+  },
+  "author": "Ehame",
   "license": "ISC",
   "dependencies": {
     "html-webpack-plugin": "^4.5.0",
