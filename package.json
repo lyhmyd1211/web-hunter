@@ -1,6 +1,6 @@
 {
   "name": "web-hunter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tracking tools(Operation data fetch) on front end web page",
   "main": "/dist/index.bunlde.js",
   "scripts": {
