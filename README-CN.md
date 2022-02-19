@@ -17,13 +17,13 @@
 这将创建全局变量Hunter
 ### NPM
 ```
-npm i npm i web-hunter 
+npm i web-hunter 
 ```
 
 or
 
 ```
-yarn  add npm i web-hunter
+yarn  add  web-hunter
 ```
 #### CommonJS
 
